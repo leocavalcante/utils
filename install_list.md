@@ -13,7 +13,7 @@ Tools I usually install on my work machines
 * [React Native CLI](http://facebook.github.io/react-native/docs/getting-started.html#the-react-native-cli)
 
 ### PL
-* [PHP](http://windows.php.net/) + [VC14](http://www.microsoft.com/en-us/download/details.aspx?id=48145)
+* [PHP](http://windows.php.net/) + [VC14](http://www.microsoft.com/en-us/download/details.aspx?id=48145) + [Xdebug](https://xdebug.org/)
 * [Python](https://www.python.org/)
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Ruby](https://rubyinstaller.org/) + DevKit
