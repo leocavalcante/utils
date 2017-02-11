@@ -23,4 +23,5 @@ Tools I usually install on my work machines
 * [Sublime Text](https://www.sublimetext.com/)
   * [Emmet](http://emmet.io/)
   * [EditorConfig](http://editorconfig.org/)
+  * [Materialize](https://github.com/saadq/Materialize)
 * [Android Studio](https://developer.android.com/studio/index.html)
