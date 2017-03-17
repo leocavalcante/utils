@@ -11,6 +11,8 @@ Tools I usually install on my work machines
 * [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 * [Brunch](http://brunch.io/)
 * [React Native CLI](http://facebook.github.io/react-native/docs/getting-started.html#the-react-native-cli)
+* [create-react-app](https://github.com/facebookincubator/create-react-app)
+* [create-react-native-app](https://github.com/react-community/create-react-native-app)
 
 ### PL
 * [PHP](http://windows.php.net/) + [VC14](http://www.microsoft.com/en-us/download/details.aspx?id=48145) + [Xdebug](https://xdebug.org/)
