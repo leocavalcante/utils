@@ -1,0 +1,22 @@
+{
+  "editor.fontSize": 12,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "block-outline",
+  "editor.lineHeight": 18,
+  "editor.rulers": [
+    160
+  ],
+  "editor.roundedSelection": false,
+  "editor.quickSuggestions": false,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.selectionHighlight": true,
+  "editor.fontLigatures": true,
+  "editor.dragAndDrop": true,
+  "editor.formatOnSave": true,
+  "window.reopenFolders": "none",
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}
