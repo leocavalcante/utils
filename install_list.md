@@ -3,7 +3,7 @@
 Tools I usually install on my work machines
 
 * [Git](https://git-scm.com/)
-* [Docker](https://www.docker.com/)
+* [Docker Toolbox](https://www.docker.com/products/docker-toolbox)
 * [Cygwin](https://www.cygwin.com/)
 * [cmder](http://cmder.net/)
 
