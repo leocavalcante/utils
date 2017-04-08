@@ -4,7 +4,7 @@ Tools I usually install on my work machines
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/)
 * [Cygwin](https://www.cygwin.com/)
-* [Hyper™](https://hyper.is/)
+* [cmder](http://cmder.net/)
 
 ### [Node.js](https://nodejs.org/en/)
 * [Yarn](https://yarnpkg.com/en/)
