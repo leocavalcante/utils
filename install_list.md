@@ -9,9 +9,8 @@ Tools I usually install on my work machines
 
 ### [Node.js](https://nodejs.org/en/)
 
-* [Yarn](https://yarnpkg.com/en/)
 * [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
-* [Brunch](http://brunch.io/)
+* [Yarn](https://yarnpkg.com/en/)
 * [React Native CLI](http://facebook.github.io/react-native/docs/getting-started.html#the-react-native-cli)
 * [create-react-app](https://github.com/facebookincubator/create-react-app)
 * [create-react-native-app](https://github.com/react-community/create-react-native-app)
