@@ -26,9 +26,9 @@ Tools I usually install on my work machines
 
 ### Editors / IDEs
 
-* [Visual Studio Code](https://code.visualstudio.com/)
 * [Sublime Text](https://www.sublimetext.com/)
   * [Emmet](http://emmet.io/)
   * [EditorConfig](http://editorconfig.org/)
   * [Materialize](https://github.com/saadq/Materialize)
 * [Android Studio](https://developer.android.com/studio/index.html)
+* [Visual Studio Code](https://code.visualstudio.com/)
