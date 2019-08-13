@@ -1,4 +1,8 @@
-New-Alias -Name "dc" -Value docker-compose.exe
+Set-Alias -Name dc -Value docker-compose.exe
+
+function phpd {
+  docker.exe run --rm -v "$(pwd):/app" phpd php $args
+}
 
 function Prompt {
   $p = Split-Path -Leaf -Path (Get-Location)
@@ -11,9 +15,9 @@ function Prompt {
   return "$p~ "
 }
 
-cmd /c "vcvars64.bat&set" |
-foreach {
-  if ($_ -match "=") {
-    $v = $_.split("="); set-item -force -path "ENV:\$($v[0])"  -value "$($v[1])"
-  }
-}
+# cmd /c "vcvars64.bat&set" |
+# foreach {
+#   if ($_ -match "=") {
+#     $v = $_.split("="); set-item -force -path "ENV:\$($v[0])"  -value "$($v[1])"
+#   }
+# }
