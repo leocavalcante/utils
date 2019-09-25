@@ -1,7 +1,11 @@
+Set-Alias -Name d -Value docker.exe
 Set-Alias -Name dc -Value docker-compose.exe
 
-function phpd {
-  docker.exe run --rm -v "$(pwd):/app" phpd php $args
+function du {
+  docker run --rm -it --name du `
+    -v "$(pwd):/usr/local/src" `
+    -w /usr/local/src `
+    @args
 }
 
 function Prompt {
