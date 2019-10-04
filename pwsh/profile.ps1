@@ -5,9 +5,6 @@ function du {
   docker run --rm -it `
     -v "$(pwd):/usr/local/src" `
     -w /usr/local/src `
-    -p "8000:80" `
-    -p "8080:8080" `
-    -p "3000:3000" `
     @args
 }
 
