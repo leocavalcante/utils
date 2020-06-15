@@ -1,25 +1,27 @@
 Set-Alias -Name d -Value docker.exe
 Set-Alias -Name dc -Value docker-compose.exe
+Set-Alias -Name k -Value kubectl.exe
+Set-Alias -Name dn -Value doctl.exe
+Set-Alias -Name r -Value rancher.exe
 
-function du {
-  docker run --rm -it `
-    -v "$(pwd):/usr/local/src" `
-    -w /usr/local/src `
-    @args
+function dr {
+    docker run --rm -it `
+        -v "$(pwd):/opt" `
+        -w /opt `
+        @args
 }
 
-function Prompt {
-  $p = Split-Path -Leaf -Path (Get-Location)
-  $b = git rev-parse --abbrev-ref HEAD
+function prompt {
+    $p = Split-Path -Leaf -Path (Get-Location)
+    $b = git rev-parse --abbrev-ref HEAD
 
-  if ($b) {
-    return "$p [$b]~ "
-  }
+    if ($b) {
+        return "$p [$b]~ "
+    }
 
-  return "$p~ "
+    return "$p~ "
 }
 
-# https://gist.github.com/grenzi/82e6cb8215cc47879fdf3a8a4768ec09
 function Set-PsEnv {
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Low')]
     param($localEnvFile = ".\.env")
@@ -37,8 +39,8 @@ function Set-PsEnv {
     foreach ($line in $content) {
         if ($line.StartsWith("#")) { continue };
         if ($line.Trim()) {
-            $line = $line.Replace("`"","")
-            $kvp = $line -split "=",2
+            $line = $line.Replace("`"", "")
+            $kvp = $line -split "=", 2
             if ($PSCmdlet.ShouldProcess("$($kvp[0])", "set value $($kvp[1])")) {
                 [Environment]::SetEnvironmentVariable($kvp[0].Trim(), $kvp[1].Trim(), "Process") | Out-Null
             }
