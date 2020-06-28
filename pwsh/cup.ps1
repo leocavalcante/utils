@@ -1,4 +1,5 @@
-choco upgrade -y chocolatey php python ruby nodejs golang rustup.install
-npm update -g npm
-rustup update
+choco upgrade -y chocolatey php nodejs-lts python ruby golang rustup.install dart-sdk meteor
 composer self-update
+rustup update
+npm update -g npm
+flutter upgrade
