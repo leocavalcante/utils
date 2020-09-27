@@ -5,8 +5,8 @@ choco upgrade -y chocolatey
 choco upgrade -y php
 composer self-update
 
-# Upgrade Node.js and NPM
-choco upgrade -y nodejs-lts
+# Upgrade Node.js, NPM, Yarn and Deno
+choco upgrade -y nodejs-lts yarn deno
 npm update -g npm
 
 # Upgrade Dart and Flutter
@@ -18,4 +18,4 @@ choco upgrade -y rustup.install
 rustup update
 
 # Upgrade Others
-choco upgrade -y python ruby golang
+choco upgrade -y python python2 ruby golang julia dotnetcore-sdk
