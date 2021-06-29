@@ -1,0 +1,32 @@
+live_config_reload: true
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - tmux
+    
+custom_cursor_colors: true
+
+colors:
+  primary:
+    background: '0x191919'
+    foreground: '0xeaeaea'
+
+  cursor:
+    text: '0xf1c1c1'
+    cursor: '0xff2600'
+
+font:
+  normal:
+    family: Menlo
+    style: Regular
+  
+  bold:
+    family: Menlo
+    style: Bold
+
+  italic:
+    family: Menlo
+    style: Italic
